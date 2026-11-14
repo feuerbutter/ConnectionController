@@ -5,19 +5,27 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleExecutable</key>
-    <string>StayConnected</string>
+    <string>CambridgeVPNAuto</string>
     <key>CFBundleIdentifier</key>
-    <string>io.github.stayconnected.agent</string>
+    <string>com.wjli.cambridge-vpn-auto</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
-    <string>StayConnected</string>
+    <string>ConnectionManager</string>
+    <key>CFBundleDisplayName</key>
+    <string>ConnectionManager</string>
+    <key>CFBundleIconFile</key>
+    <string>ConnectionManager</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>0.1.0</string>
+    <string>2.1.2</string>
     <key>CFBundleVersion</key>
-    <string>1</string>
+    <string>12</string>
+    <key>NSSystemExtensionUsageDescription</key>
+    <string>ConnectionManager uses a network extension to route applications through their selected connection and block internet access when requested.</string>
     <key>LSMinimumSystemVersion</key>
     <string>13.0</string>
     <key>LSUIElement</key>

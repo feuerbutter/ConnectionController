@@ -11,8 +11,9 @@ about: Report a reproducible problem with private details removed
 
 ## Environment
 
+- Mac processor (Apple Silicon or Intel):
 - macOS version:
-- StayConnected version or commit:
+- ConnectionManager version or ConnectionController commit:
 - VPN type (not your server address or credentials):
 - Does the profile appear in `scutil --nc list`? (yes/no only)
 

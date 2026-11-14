@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = "1";
+	"classes" = {
+	};
+	"objectVersion" = "56";
+	"objects" = {
+		"E775185A07C8F33E335CDB8B" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/CambridgeVPNAuto/AgentLog.swift";
+			"sourceTree" = "<group>";
+		};
+		"24D4CF8A44DF95BC7A898112" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/CambridgeVPNAuto/AppCatalog.swift";
+			"sourceTree" = "<group>";
+		};
+		"BF0F1817265C7CD7E64E776E" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/CambridgeVPNAuto/AppDelegate.swift";
+			"sourceTree" = "<group>";
+		};
+		"ABA63BCBC1ED5E8DCFAC0944" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/CambridgeVPNAuto/CLI.swift";
+			"sourceTree" = "<group>";
+		};
+		"D1020BE194CFBAA6DBC09FEF" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/CambridgeVPNAuto/ClaudeGuardController.swift";
+			"sourceTree" = "<group>";
+		};
+		"865D18821D1BF83A4E58D617" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/CambridgeVPNAuto/ConnectionSettings.swift";
+			"sourceTree" = "<group>";
+		};
+		"525CB55140068D661746A50D" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/CambridgeVPNAuto/Controller.swift";
+			"sourceTree" = "<group>";
+		};
+		"4A3482294AFD6770877C4EB2" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/CambridgeVPNAuto/RoutingController.swift";
+			"sourceTree" = "<group>";
+		};
+		"1184225B30827E115130550A" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/CambridgeVPNAuto/StoreExperience.swift";
+			"sourceTree" = "<group>";
+		};
+		"1576125883C05379A35569BD" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/CambridgeVPNAuto/VPNService.swift";
+			"sourceTree" = "<group>";
+		};
+		"37CB46C185396A8D7D2FBC90" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/CambridgeVPNAuto/main.swift";
+			"sourceTree" = "<group>";
+		};
+		"0475722D01C78E047E503367" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/ConnectionRouter/ConnectionRouterProvider.swift";
+			"sourceTree" = "<group>";
+		};
+		"3F6B3C0B7FDFA058AB37A399" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/ConnectionRouter/InternetFilterProvider.swift";
+			"sourceTree" = "<group>";
+		};
+		"ADB08DCB1072564AE7D0BE60" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/ConnectionRouter/NetworkState.swift";
+			"sourceTree" = "<group>";
+		};
+		"08CE6EAD567E85EF489718E1" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/ConnectionRouter/TCPRelay.swift";
+			"sourceTree" = "<group>";
+		};
+		"50DAF026E1F8EDED8DDF8519" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/ConnectionRouter/UDPRelay.swift";
+			"sourceTree" = "<group>";
+		};
+		"81D6176FCD7C23B38A767187" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/ConnectionRouter/main.swift";
+			"sourceTree" = "<group>";
+		};
+		"3D5EAFD51E6B1720E3D2FBA5" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "image.icns";
+			"path" = "Resources/ConnectionManager.icns";
+			"sourceTree" = "<group>";
+		};
+		"B8AF41AC627F4BB6FBFD6CF4" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.xml";
+			"path" = "Resources/AppStore/PrivacyInfo.xcprivacy";
+			"sourceTree" = "<group>";
+		};
+		"11FC2645EC4077C208E940F2" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.xml";
+			"path" = "Resources/AppStore/RouterPrivacy/PrivacyInfo.xcprivacy";
+			"sourceTree" = "<group>";
+		};
+		"50721D1DB05E693DA7FB816C" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.html";
+			"path" = "Resources/AppStore/Privacy.html";
+			"sourceTree" = "<group>";
+		};
+		"4E783A9E10D2A8ABA38CD11C" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"path" = "ConnectionManager.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"F64129D72E7C4BDBC7137274" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.system-extension";
+			"path" = "com.wjli.cambridge-vpn-auto.connection-router.systemextension";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"FBDC4F23F93125BBEEAE800C" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"4E783A9E10D2A8ABA38CD11C",
+				"F64129D72E7C4BDBC7137274",
+			);
+			"name" = "Products";
+			"sourceTree" = "<group>";
+		};
+		"870B3294C0CBD48AF6BBCC1B" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"E775185A07C8F33E335CDB8B",
+				"24D4CF8A44DF95BC7A898112",
+				"BF0F1817265C7CD7E64E776E",
+				"ABA63BCBC1ED5E8DCFAC0944",
+				"D1020BE194CFBAA6DBC09FEF",
+				"865D18821D1BF83A4E58D617",
+				"525CB55140068D661746A50D",
+				"4A3482294AFD6770877C4EB2",
+				"1184225B30827E115130550A",
+				"1576125883C05379A35569BD",
+				"37CB46C185396A8D7D2FBC90",
+				"0475722D01C78E047E503367",
+				"3F6B3C0B7FDFA058AB37A399",
+				"ADB08DCB1072564AE7D0BE60",
+				"08CE6EAD567E85EF489718E1",
+				"50DAF026E1F8EDED8DDF8519",
+				"81D6176FCD7C23B38A767187",
+				"3D5EAFD51E6B1720E3D2FBA5",
+				"B8AF41AC627F4BB6FBFD6CF4",
+				"11FC2645EC4077C208E940F2",
+				"50721D1DB05E693DA7FB816C",
+				"FBDC4F23F93125BBEEAE800C",
+			);
+			"sourceTree" = "<group>";
+		};
+		"CF21FADD42EAB8F8303A3895" = {
+			"isa" = "XCLocalSwiftPackageReference";
+			"relativePath" = ".";
+		};
+		"8D6A224FA1D1DD751157EB0C" = {
+			"isa" = "XCSwiftPackageProductDependency";
+			"productName" = "CambridgeVPNAutoCore";
+		};
+		"0BC67F8BA3CD4FA6561423BC" = {
+			"isa" = "XCSwiftPackageProductDependency";
+			"productName" = "ConnectionRouterObjC";
+		};
+		"389444BCC56932E3DFEE33CB" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"MACOSX_DEPLOYMENT_TARGET" = "13.0";
+				"SDKROOT" = "macosx";
+				"SWIFT_VERSION" = "5.0";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "ZALH7RDTC9";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"MARKETING_VERSION" = "1.0";
+				"CURRENT_PROJECT_VERSION" = "15";
+				"ARCHS" = "$(ARCHS_STANDARD)";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) APP_STORE";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.wjli.cambridge-vpn-auto.connection-router";
+				"PRODUCT_NAME" = "com.wjli.cambridge-vpn-auto.connection-router";
+				"EXECUTABLE_NAME" = "ConnectionRouter";
+				"INFOPLIST_FILE" = "Resources/AppStore/Router-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "Resources/AppStore/Router.entitlements";
+				"SKIP_INSTALL" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"B3E54CC264D4AFF882D9C050" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"MACOSX_DEPLOYMENT_TARGET" = "13.0";
+				"SDKROOT" = "macosx";
+				"SWIFT_VERSION" = "5.0";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "ZALH7RDTC9";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"MARKETING_VERSION" = "1.0";
+				"CURRENT_PROJECT_VERSION" = "15";
+				"ARCHS" = "$(ARCHS_STANDARD)";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) APP_STORE";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.wjli.cambridge-vpn-auto.connection-router";
+				"PRODUCT_NAME" = "com.wjli.cambridge-vpn-auto.connection-router";
+				"EXECUTABLE_NAME" = "ConnectionRouter";
+				"INFOPLIST_FILE" = "Resources/AppStore/Router-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "Resources/AppStore/Router.entitlements";
+				"SKIP_INSTALL" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"ONLY_ACTIVE_ARCH" = "NO";
+			};
+			"name" = "Release";
+		};
+		"E072B51904910A3BE66C32AB" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"389444BCC56932E3DFEE33CB",
+				"B3E54CC264D4AFF882D9C050",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"B701EC4A9CB0D2902C3D6E47" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0475722D01C78E047E503367";
+		};
+		"185303B697909A4AEC922E7F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "3F6B3C0B7FDFA058AB37A399";
+		};
+		"50143299DD0AC7F4D3030000" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "ADB08DCB1072564AE7D0BE60";
+		};
+		"7D169CA19F229FA68720E553" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "08CE6EAD567E85EF489718E1";
+		};
+		"A8C21DADF540645034FE1E2D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "50DAF026E1F8EDED8DDF8519";
+		};
+		"20B193AB2C2AB1621C93AEFC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "81D6176FCD7C23B38A767187";
+		};
+		"FE3109C5D4CFA4D8B5E55889" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"B701EC4A9CB0D2902C3D6E47",
+				"185303B697909A4AEC922E7F",
+				"50143299DD0AC7F4D3030000",
+				"7D169CA19F229FA68720E553",
+				"A8C21DADF540645034FE1E2D",
+				"20B193AB2C2AB1621C93AEFC",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"1C7A5D4AB4EEC9EADB2F50F5" = {
+			"isa" = "PBXBuildFile";
+			"productRef" = "8D6A224FA1D1DD751157EB0C";
+		};
+		"4E95F1E8919A6AF98CBB4826" = {
+			"isa" = "PBXBuildFile";
+			"productRef" = "0BC67F8BA3CD4FA6561423BC";
+		};
+		"DA682C163451F68D860D3C79" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"1C7A5D4AB4EEC9EADB2F50F5",
+				"4E95F1E8919A6AF98CBB4826",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"5878B8A415EBFA6AB981A2E2" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "11FC2645EC4077C208E940F2";
+		};
+		"E100FE7EC1B3F6337C0021F1" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"5878B8A415EBFA6AB981A2E2",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"D23B9CC33DE98C4CADA26A6A" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "E072B51904910A3BE66C32AB";
+			"buildPhases" = (
+				"FE3109C5D4CFA4D8B5E55889",
+				"DA682C163451F68D860D3C79",
+				"E100FE7EC1B3F6337C0021F1",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+			);
+			"name" = "ConnectionRouter";
+			"packageProductDependencies" = (
+				"8D6A224FA1D1DD751157EB0C",
+				"0BC67F8BA3CD4FA6561423BC",
+			);
+			"productName" = "ConnectionRouter";
+			"productReference" = "F64129D72E7C4BDBC7137274";
+			"productType" = "com.apple.product-type.system-extension";
+		};
+		"B2E729310CDD9EC71A70F62C" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "98F54143AB4E86B28C3AFEE0";
+			"proxyType" = "1";
+			"remoteGlobalIDString" = "D23B9CC33DE98C4CADA26A6A";
+			"remoteInfo" = "ConnectionRouter";
+		};
+		"845E96959EDB94DED49ABDBE" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "D23B9CC33DE98C4CADA26A6A";
+			"targetProxy" = "B2E729310CDD9EC71A70F62C";
+		};
+		"275633D73DE76DE206D3C5DE" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F64129D72E7C4BDBC7137274";
+			"settings" = {
+				"ATTRIBUTES" = (
+					"RemoveHeadersOnCopy",
+				);
+			};
+		};
+		"59F0EF556AF35CA7586D8A1E" = {
+			"isa" = "PBXCopyFilesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"dstPath" = "$(CONTENTS_FOLDER_PATH)/Library/SystemExtensions";
+			"dstSubfolderSpec" = "16";
+			"files" = (
+				"275633D73DE76DE206D3C5DE",
+			);
+			"name" = "Embed System Extensions";
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"E9B2E96ABC5F6856F2BE79CF" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"MACOSX_DEPLOYMENT_TARGET" = "13.0";
+				"SDKROOT" = "macosx";
+				"SWIFT_VERSION" = "5.0";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "ZALH7RDTC9";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"MARKETING_VERSION" = "1.0";
+				"CURRENT_PROJECT_VERSION" = "15";
+				"ARCHS" = "$(ARCHS_STANDARD)";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) APP_STORE";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.wjli.cambridge-vpn-auto";
+				"PRODUCT_NAME" = "ConnectionManager";
+				"EXECUTABLE_NAME" = "CambridgeVPNAuto";
+				"INFOPLIST_FILE" = "Resources/AppStore/App-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "Resources/AppStore/App.entitlements";
+				"SKIP_INSTALL" = "NO";
+				"COMBINE_HIDPI_IMAGES" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"5A8C91857F674E16E2724F47" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"MACOSX_DEPLOYMENT_TARGET" = "13.0";
+				"SDKROOT" = "macosx";
+				"SWIFT_VERSION" = "5.0";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "ZALH7RDTC9";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"MARKETING_VERSION" = "1.0";
+				"CURRENT_PROJECT_VERSION" = "15";
+				"ARCHS" = "$(ARCHS_STANDARD)";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) APP_STORE";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.wjli.cambridge-vpn-auto";
+				"PRODUCT_NAME" = "ConnectionManager";
+				"EXECUTABLE_NAME" = "CambridgeVPNAuto";
+				"INFOPLIST_FILE" = "Resources/AppStore/App-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "Resources/AppStore/App.entitlements";
+				"SKIP_INSTALL" = "NO";
+				"COMBINE_HIDPI_IMAGES" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"ONLY_ACTIVE_ARCH" = "NO";
+			};
+			"name" = "Release";
+		};
+		"F37922C48DA5978D02C9E50E" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"E9B2E96ABC5F6856F2BE79CF",
+				"5A8C91857F674E16E2724F47",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"914421453225958DB89FB3DC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E775185A07C8F33E335CDB8B";
+		};
+		"A4C7A3943356AC0F1892777D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "24D4CF8A44DF95BC7A898112";
+		};
+		"9B6E74E6A033CC0D4C74D959" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "BF0F1817265C7CD7E64E776E";
+		};
+		"E88D2497255CE67F3EEC2A5B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "ABA63BCBC1ED5E8DCFAC0944";
+		};
+		"E9085534AC799B9A6BE6A65F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D1020BE194CFBAA6DBC09FEF";
+		};
+		"2C959FBA0B9663C75CCA5F65" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "865D18821D1BF83A4E58D617";
+		};
+		"93306023D1882B966A65FA1A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "525CB55140068D661746A50D";
+		};
+		"0A2C9F65360DE3214B032F5D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "4A3482294AFD6770877C4EB2";
+		};
+		"5671D98EC75D76C662CEEFD6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "1184225B30827E115130550A";
+		};
+		"E978D6185E8F68DC04EC8BD6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "1576125883C05379A35569BD";
+		};
+		"750EA6A8B13DCE3FC5A9F144" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "37CB46C185396A8D7D2FBC90";
+		};
+		"949D493B91791558E87BC5D7" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"914421453225958DB89FB3DC",
+				"A4C7A3943356AC0F1892777D",
+				"9B6E74E6A033CC0D4C74D959",
+				"E88D2497255CE67F3EEC2A5B",
+				"E9085534AC799B9A6BE6A65F",
+				"2C959FBA0B9663C75CCA5F65",
+				"93306023D1882B966A65FA1A",
+				"0A2C9F65360DE3214B032F5D",
+				"5671D98EC75D76C662CEEFD6",
+				"E978D6185E8F68DC04EC8BD6",
+				"750EA6A8B13DCE3FC5A9F144",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"1B8FAA54B7FB437A5E8AF754" = {
+			"isa" = "PBXBuildFile";
+			"productRef" = "8D6A224FA1D1DD751157EB0C";
+		};
+		"12384B5908BE5FE5B3301CEE" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"1B8FAA54B7FB437A5E8AF754",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"D23371E99CD331CDBD6BF854" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "3D5EAFD51E6B1720E3D2FBA5";
+		};
+		"C0E4F85EE19E78CAB1D85204" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B8AF41AC627F4BB6FBFD6CF4";
+		};
+		"F28BD475EAD1D48786530FCE" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "50721D1DB05E693DA7FB816C";
+		};
+		"8ECC8B5D05B79F879ACDF1A2" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"D23371E99CD331CDBD6BF854",
+				"C0E4F85EE19E78CAB1D85204",
+				"F28BD475EAD1D48786530FCE",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"F75109BEB4DD8800DA6B45F8" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "F37922C48DA5978D02C9E50E";
+			"buildPhases" = (
+				"949D493B91791558E87BC5D7",
+				"12384B5908BE5FE5B3301CEE",
+				"8ECC8B5D05B79F879ACDF1A2",
+				"59F0EF556AF35CA7586D8A1E",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				"845E96959EDB94DED49ABDBE",
+			);
+			"name" = "ConnectionManager";
+			"packageProductDependencies" = (
+				"8D6A224FA1D1DD751157EB0C",
+			);
+			"productName" = "ConnectionManager";
+			"productReference" = "4E783A9E10D2A8ABA38CD11C";
+			"productType" = "com.apple.product-type.application";
+		};
+		"89E1FD6268CC0F221A2BE178" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "macosx";
+				"MACOSX_DEPLOYMENT_TARGET" = "13.0";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"E6DE6C99132752C914FEF632" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "macosx";
+				"MACOSX_DEPLOYMENT_TARGET" = "13.0";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"ONLY_ACTIVE_ARCH" = "NO";
+			};
+			"name" = "Release";
+		};
+		"862894B703A6DEDF96A9DD6C" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"89E1FD6268CC0F221A2BE178",
+				"E6DE6C99132752C914FEF632",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"98F54143AB4E86B28C3AFEE0" = {
+			"isa" = "PBXProject";
+			"attributes" = {
+				"LastUpgradeCheck" = "2710";
+			};
+			"buildConfigurationList" = "862894B703A6DEDF96A9DD6C";
+			"compatibilityVersion" = "Xcode 14.0";
+			"developmentRegion" = "en";
+			"hasScannedForEncodings" = "0";
+			"knownRegions" = (
+				"en",
+				"Base",
+			);
+			"mainGroup" = "870B3294C0CBD48AF6BBCC1B";
+			"productRefGroup" = "FBDC4F23F93125BBEEAE800C";
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"packageReferences" = (
+				"CF21FADD42EAB8F8303A3895",
+			);
+			"targets" = (
+				"F75109BEB4DD8800DA6B45F8",
+				"D23B9CC33DE98C4CADA26A6A",
+			);
+		};
+	};
+	"rootObject" = "98F54143AB4E86B28C3AFEE0";
+}

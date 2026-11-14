@@ -3,25 +3,31 @@
 import PackageDescription
 
 let package = Package(
-    name: "StayConnected",
+    name: "CambridgeVPNAuto",
     platforms: [
         .macOS(.v13)
     ],
     products: [
-        .library(name: "StayConnectedCore", targets: ["StayConnectedCore"]),
-        .executable(name: "StayConnected", targets: ["StayConnected"]),
-        .executable(name: "StayConnectedCoreChecks", targets: ["StayConnectedCoreChecks"])
+        .library(name: "CambridgeVPNAutoCore", targets: ["CambridgeVPNAutoCore"]),
+        .library(name: "ConnectionRouterObjC", targets: ["ConnectionRouterObjC"]),
+        .executable(name: "CambridgeVPNAuto", targets: ["CambridgeVPNAuto"]),
+        .executable(name: "CambridgeVPNAutoCoreChecks", targets: ["CambridgeVPNAutoCoreChecks"]),
+        .executable(name: "ClaudeVPNGuard", targets: ["ClaudeVPNGuard"]),
+        .executable(name: "ConnectionRouter", targets: ["ConnectionRouter"])
     ],
     targets: [
-        .target(name: "StayConnectedCore"),
+        .target(name: "CambridgeVPNAutoCore"),
+        .executableTarget(name: "ClaudeVPNGuard", dependencies: ["CambridgeVPNAutoCore"]),
+        .target(name: "ConnectionRouterObjC"),
+        .executableTarget(name: "ConnectionRouter", dependencies: ["CambridgeVPNAutoCore", "ConnectionRouterObjC"]),
         .executableTarget(
-            name: "StayConnected",
-            dependencies: ["StayConnectedCore"]
+            name: "CambridgeVPNAuto",
+            dependencies: ["CambridgeVPNAutoCore"]
         ),
         .executableTarget(
-            name: "StayConnectedCoreChecks",
-            dependencies: ["StayConnectedCore"],
-            path: "Tests/StayConnectedCoreTests"
+            name: "CambridgeVPNAutoCoreChecks",
+            dependencies: ["CambridgeVPNAutoCore"],
+            path: "Tests/CambridgeVPNAutoCoreTests"
         )
     ],
     swiftLanguageVersions: [.v5]
